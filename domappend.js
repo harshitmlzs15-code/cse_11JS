@@ -68,13 +68,26 @@ load
 unload
 resize
 */
+
 /*
 keyboard event
 onkey up
 onkey dowm
 */
+
 function myBody(){
     alert("window load successfully");
 }
+
+//JSON - javascript object Notation, lightweight, text based format for storing, and exchanging data.
+
+/*
+human readable
+widely used for data interchange between servers and web application
+it is a string.
+for accessing the element : members[o].powers[2]
+*/
+
+
 
 
