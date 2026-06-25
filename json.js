@@ -5,6 +5,7 @@ let text = '{"employees":[' +
     '{"firstName":"Peter", "lastName":"Jones"}]}';
 
 const obj = JSON.parse(text);
+//json.stringify
 document.getElementById("demo").innerHTML =
     obj.employees[1].firstName + " " + obj.employees[1].lastName;
 
